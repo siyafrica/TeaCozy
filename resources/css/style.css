@@ -50,15 +50,56 @@ nav span {
 /* container styles */
 #container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	margin-top: 80px;
+	align-items: center;
+	align-content: center;
+	margin-top: 70px;
 	background-color: black;
 }
 
-/* footer styles */
+/* Our mission styles */
 .our-mission {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-image: url("../img/img-mission-background.jpg");
 	width: 1200px;
 	height: 700px;
 }
+
+div.our-mission-text {
+	text-align: center;
+	background-color: black;
+}
+
+.content-text {
+	text-align: center;
+	background-color: black;
+}
+
+/* Tea of the month styles */
+.tea-of-the-month {
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tea-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tea-images div {
+	margin-right: 10px;
+}
+
+.image {
+	width: 300px;
+	height: 200px;
+}
+
+/* footer styles */
+
