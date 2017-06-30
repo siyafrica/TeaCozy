@@ -6,7 +6,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	color: seashell;
-	font-family: sans-serif;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
 	background-color: black;
 }
 
@@ -101,5 +103,57 @@ div.our-mission-text {
 	height: 200px;
 }
 
-/* footer styles */
+/* Locations styles */
+#locations {
+	width: 1200px;
+	height: 700px;
+	background-image: url("../img/img-locations-background.jpg");
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.locations-text h2 {
+	text-align: center;
+}
+
+.location-blocks {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.location-block {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 40px;
+	text-align: center;
+	opacity: 1;
+}
+
+.location-block span {
+	padding: 10px 0;
+}
+
+/* footer styles */
+footer {
+	display: flex;
+	flex-direction: column;
+}
+.contact {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright {
+	text-align: left;
+	margin: 10px 20px;
+}
